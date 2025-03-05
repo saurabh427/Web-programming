@@ -1,0 +1,130 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            padding-top: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .bio-photo {
+            float: right;
+            margin-left: 20px;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        hr {
+            border: 1px solid #ccc;
+        }
+        .bio-details {
+            font-size: 18px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        table th {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><b>BIODATA</b></h1>
+
+    <div class="container">
+        <img src="Library/Mobile Documents/com~apple~CloudDocs/WhatsApp Image 2025-02-27 at 21.25.22.jpeg" alt="My photo" height="225" width="225" class="bio-photo">
+        
+        <div class="bio-details">
+            <p><b>Name:</b> SAURABH SINGH</p>
+            <p><b>Date of Birth:</b> 16/11/2005 | <b>Nationality:</b> Indian | <b>Phone Number:</b> 7****4 | <b>Email Address:</b> saurabh1611a7458@gmail.com</p>
+            <hr color="grey">
+
+            <ul>
+                <li><b>About Me:</b></li>
+            </ul>
+            <p>
+                Good morning! I am <strong><b>SAURABH SINGH</b></strong>, a passionate software engineer specialized in artificial intelligence and data science. 
+                I have honed my skills through practical experience and ongoing personal development, bringing an innovative approach to problem-solving. 
+                With strong communication and teamwork abilities, I thrive on challenges and the opportunity to learn new things. My aim is to continually 
+                enhance my expertise and contribute positively to the organizations I work with.
+            </p>
+            
+            <table>
+                <tr>
+                    <th>Examination</th>
+                    <th>Institute and Place</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Chandrasheel Vidyapeeth School, Muzaffarpur</td>
+                    <td>2021</td>
+                    <td>76.8%</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Chandrasheel Vidyapeeth School, Muzaffarpur</td>
+                    <td>2023</td>
+                    <td>79%</td>
+                </tr>
+            </table>
+
+            <ul>
+                <li><b>Hobbies:</b></li>
+                <li>Playing cricket</li>
+                <li>Listening to music</li>
+            </ul>
+
+            <ul>
+                <li><b>Special Achievements:</b></li>
+                <li>Played cricket at the district level</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>For more information, feel free to reach out via email or phone!</p>
+    </div>
+
+</body>
+</html>
