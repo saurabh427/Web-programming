@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gallery-container">
+        <div class="gallery">
+            <img src="WhatsApp Image 2025-02-27 at 23.01.41.jpeg" alt="Image 1" class="gallery-item">
+            <img src="WhatsApp Image 2025-02-27 at 23.01.41.jpeg" alt="Image 2" class="gallery-item">
+            <img src="WhatsApp Image 2025-02-27 at 21.25.22.jpeg" alt="Image 3" class="gallery-item">
+            <img src="WhatsApp Image 2025-02-27 at 21.25.22.jpeg" alt="Image 4" class="gallery-item">
+            <img src="image1.jpg" alt="Image 1" class="gallery-item">
+            <img src="image2.jpg" alt="Image 2" class="gallery-item">
+            <img src="image3.jpg" alt="Image 3" class="gallery-item">
+            <img src="image4.jpg" alt="Image 4" class="gallery-item"> 
+            <img src="image2.jpg" alt="Image 2" class="gallery-item">
+            <img src="image3.jpg" alt="Image 3" class="gallery-item">
+            <img src="image4.jpg" alt="Image 4" class="gallery-item"> 
+            <img src="image2.jpg" alt="Image 2" class="gallery-item">
+            <img src="image3.jpg" alt="Image 3" class="gallery-item">
+            <img src="image4.jpg" alt="Image 4" class="gallery-item">
+            <img src="image1.jpg" alt="Image 1" class="gallery-item">
+            <img src="image2.jpg" alt="Image 2" class="gallery-item">
+            <img src="image3.jpg" alt="Image 3" class="gallery-item">
+            <img src="image4.jpg" alt="Image 4" class="gallery-item">
+        </div>
+    </div>
+
+    <!-- Modal for full-screen image view -->
+    <div id="modal" class="modal">
+        <span id="close" class="close">&times;</span>
+        <img id="modal-image" class="modal-content" />
+        <div id="caption" class="caption"></div>
+    </div>
+</body>
+</html>
